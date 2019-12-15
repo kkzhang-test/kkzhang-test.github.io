@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    type="text/javascript"
+    src="http://localhost:63342/python 文件/testlogin.html"
+</script>
+<body bgcolor="#ffffff" onload="loadedvar=true;">
+<form name="terms" action="http://localhost:63342/python 文件/testlogin.html" method="get">
+    我同意: <input type="checkbox" name="agree" value="ON">
+    <input onclick="if (loadedvar) {if (document.terms.agree.checked) {document.terms.submit();} else {window.alert('kumikoda提示您，必须先同意才能跳转')}} else {window.alert('请稍等...')}" type="button" value="继续">
+    <input type="button" value="退出" onclick="document.location.href='http://localhost:63342/python 文件/testlogin.html';" >
+</form>
+</body>
+</html>
