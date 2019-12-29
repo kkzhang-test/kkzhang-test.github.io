@@ -1,0 +1,26 @@
+# 服务端监听配置
+service:
+  port: :8080
+  debug_mode: false
+
+# log配置
+log:
+  path:
+
+
+# 数据库配置
+db:
+  dialect: mysql
+  host: 127.0.0.1:3306
+  user: root
+  pass: 
+  db: chat
+  enable_log: true
+  max_open_connections: 20
+  max_idle_connections: 10
+
+# redis
+redis:
+  host: 127.0.0.1:6379
+  pass:
+  db: 4
